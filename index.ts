@@ -32,10 +32,10 @@ app.use(Router);
 
 
 
-sequelize.sync({ force: true })
+sequelize.sync(/*{ force: true }*/)
     .then(() => {
 
-        Data.bulkCreate([
+        /*Data.bulkCreate([
             {
                 Nom: 'DATA',
                 Description: 'Ingénieur des Sciences de Données'
@@ -69,7 +69,7 @@ sequelize.sync({ force: true })
 
                 console.log("server has been created");
             })
-            .catch(() => console.log('cannot create data'))
+            .catch(() => console.log('cannot create data'))*/
 
         const server = app.listen(4000);
 

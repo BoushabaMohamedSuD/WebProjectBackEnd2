@@ -5,9 +5,9 @@ import { Sequelize } from 'sequelize-typescript';
 export { };
 
 export const sequelize = new Sequelize({
-    database: '',
+    database: 'Najlae',
     // dialect: 'sqlite',
-    username: '',
+    username: 'BoushabaMohamedProject',
     password: 'BoushabaMohamed',
     //storage: ':memory:',
     dialect: "mysql",
